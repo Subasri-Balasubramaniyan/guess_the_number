@@ -1,0 +1,48 @@
+body{
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    background: linear-gradient(to right, #f9f7f7, #dbe2ef);
+}
+h1{
+    text-align: center;
+    background-color: burlywood;
+    padding: 10px;
+}
+input{
+    border-radius: 6px;
+    height: 30px;
+    width: 200px;
+}
+.main{
+    text-align: center;
+    background-color: lightgray;
+    border : solid black 4px;
+    border-radius: 15px;
+    padding : 10px;
+}
+button{
+    height: 35px;
+    width: 80px;
+    background-color:lightblue;
+    font-weight: bold;
+    color:black;
+    box-shadow: 2px 2px 6px gray;
+    
+}
+.button:hover{background-color: floralwhite;}
+input, button {
+    border-radius: 12px;
+}
+button:active {
+    transform: scale(0.95);
+    background-color: #ccc;
+}
+input:focus {
+    outline: none;
+    border: 2px solid #6c63ff;
+    box-shadow: 0 0 5px #6c63ff;
+}
